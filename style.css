@@ -7,13 +7,14 @@ body {
 }
 
 
+
 .container-bianco {
     display: flex; 
     align-items: center; 
-    
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     font-family: Arial;
+    
 
 }
 /*bannere button*/
@@ -21,16 +22,12 @@ body {
 
 .banner {
   background-color: white;
-  width: 80%;
-  max-width: 80%;
+  width: 85%;
   height: 50px;
-  padding-right: 100px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   display: flex;
   align-items: center;
-  gap: 20px; 
-  border-radius: 8px;
-  margin: 0 auto;
+  gap: 20px;  margin: 0 auto;
+  margin-top: 20px;
 
 }
 
@@ -64,16 +61,14 @@ body {
 
 
 .container-white {
-  width: 80%;
-  max-width: 80%;
+  width: 85%;
   background-color: white;
-  padding-right: 100px;
- align-items: center;
+  align-items: center;
   gap: 20px; 
-  border-radius: 8px;
   margin: 0 auto;
   font-family: Arial;
   text-align: left;
+ 
 
 }
 /* Icone*/
@@ -190,5 +185,38 @@ ul {
     margin-left: 10px;
 }
 
+/* tag mobile */
+
+.status.completed .fa-check-circle {
+    color: #66bb6a; 
+}
+.tag {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.mobile {
+    background-color:#efc365;
+    border-radius: 8PX;
+    color: #f1f0f0;
+    font-size: small;
+    padding: 4px 8px;
+}
+.status {
+    margin-right: 10px;
+    font-size: 18px; 
+}
 
 
+ .tag {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}

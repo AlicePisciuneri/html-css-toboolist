@@ -89,9 +89,8 @@ ul {
   list-style: none;
 }
 
-.status.failed .fa-times-circle {
-    color: #ef5350; 
-}
+
+
 .tag {
     padding: 4px 8px;
     border-radius: 12px;
@@ -113,9 +112,16 @@ ul {
     color: #66bb6a; 
 }
 
-.status.failed .fa-times-circle {
-    color: #ef5350; 
+ .tag {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
 }
+
+/* tag Q1 goals */
 .tag {
     padding: 4px 8px;
     border-radius: 12px;
@@ -125,6 +131,64 @@ ul {
     margin-left: 10px;
 }
 
-.tag.editorial {
-    background-color:#007BFF;
+.tag-Q1 {
+    background-color:#85187c;
+    border-radius: 8PX;
+    color: #f1f0f0;
+    font-size: small;
+    padding: 4px 8px;
 }
+.status {
+    margin-right: 10px;
+    font-size: 18px; 
+}
+
+.status.completed .fa-check-circle {
+    color: #66bb6a; 
+}
+
+ .tag {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+/* tag recruiting */
+.tag {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.tag-recruiting {
+    background-color:#93ef65;
+    border-radius: 8PX;
+    color: #f1f0f0;
+    font-size: small;
+    padding: 4px 8px;
+}
+.status {
+    margin-right: 10px;
+    font-size: 18px; 
+}
+.status.completed .fa-regular.fa-circle-xmark {
+    color: #e50000;
+}
+
+ .tag {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+
+

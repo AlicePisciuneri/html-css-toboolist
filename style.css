@@ -56,3 +56,34 @@ body {
   color: #333;
   border: 1px solid #ccc;
 }
+
+/* container principale*/
+
+
+.container-white {
+  width: 80%;
+  max-width: 80%;
+  background-color: white;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+  border-radius: 8px;
+  margin: 0 auto;
+  font-family: Arial;
+  text-align: left;
+
+}
+/* Icone*/
+.status {
+    margin-right: 10px;
+    font-size: 18px; 
+}
+
+.status.completed .fa-check-circle {
+    color: #66bb6a; 
+}
+
+.status.failed .fa-times-circle {
+    color: #ef5350; 
+}
